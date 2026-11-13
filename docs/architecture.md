@@ -13,7 +13,7 @@ agentguard/
 ├── hooks/hooks.json           # Plugin hooks configuration
 ├── src/                       # TypeScript source
 │   ├── scanner/               # 20-rule static analysis engine
-│   ├── action/                # Runtime action evaluator + GoPlus integration
+│   ├── action/                # Runtime action evaluator + GoPlus security API integration
 │   ├── registry/              # Trust level management
 │   ├── policy/                # Default policies and presets
 │   └── tests/                 # Test suite

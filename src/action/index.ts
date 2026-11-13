@@ -29,7 +29,7 @@ import * as nodePath from 'path';
 export interface ActionScannerOptions {
   /** Registry instance */
   registry?: SkillRegistry;
-  /** GoPlus client */
+  /** GoPlus security API client */
   goplusClient?: GoPlusClient;
   /** Default capabilities when no registry record found */
   defaultCapabilities?: CapabilityModel;
@@ -390,7 +390,7 @@ export class ActionScanner {
       // Address check failed, continue
     }
 
-    // Simulate transaction if GoPlus is configured
+    // Simulate transaction if the GoPlus security API is configured
     if (GoPlusClient.isConfigured() && decision !== 'deny') {
       try {
         const simulation = await this.goplus.simulateTransaction({
@@ -747,7 +747,7 @@ export class ActionScanner {
     let riskLevel: RiskLevel = 'low';
     let decision: Decision = 'allow';
 
-    // Check if GoPlus is configured
+    // Check if the GoPlus security API is configured
     if (!GoPlusClient.isConfigured()) {
       return {
         decision: 'confirm',

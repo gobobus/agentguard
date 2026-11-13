@@ -48,7 +48,7 @@ function printUsage() {
 
 Commands:
   decide    Evaluate an action and return a policy decision
-  simulate  Run GoPlus transaction simulation only
+  simulate  Run transaction simulation only
 
 decide options:
   --type <type>        Action type: web3_tx, web3_sign, exec_command,

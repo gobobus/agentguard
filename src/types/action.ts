@@ -210,7 +210,7 @@ export interface Web3SimulationResult {
   risk_tags: string[];
   /** Human-readable explanation */
   explanation: string;
-  /** GoPlus raw response */
+  /** Raw response from the GoPlus security API */
   goplus?: {
     simulation?: {
       success: boolean;
