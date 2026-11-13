@@ -2,7 +2,7 @@
 
 <p align="center"><b>The essential security guard for every AI agent user.</b></p>
 
-<p align="center">Your AI agent has full access to your terminal, files, and secrets — but zero security awareness.<br/>A malicious skill or prompt injection can steal your keys, drain your wallet, or wipe your disk.<br/><b>AgentGuard stops all of that.</b></p>
+<p align="center">Your AI agent has full access to your terminal, files, and secrets — but zero security awareness.<br/>A malicious skill or prompt injection can steal your keys or wipe your disk.<br/><b>AgentGuard stops all of that.</b></p>
 
 [![npm](https://img.shields.io/npm/v/@axorasec/agentguard.svg)](https://www.npmjs.com/package/@axorasec/agentguard)
 [![GitHub Stars](https://img.shields.io/github/stars/AxoraSecurity/agentguard)](https://github.com/AxoraSecurity/agentguard)
@@ -16,7 +16,7 @@ AI coding agents can execute any command, read any file, and install any skill �
 
 - **Malicious skills** can hide backdoors, steal credentials, or exfiltrate data
 - **Prompt injection** can trick your agent into running destructive commands
-- **Unverified code** from the internet may contain wallet drainers or keyloggers
+- **Unverified code** from the internet may contain malicious code or keyloggers
 
 **AgentGuard is the first real-time security layer for AI agents.** It automatically scans every new skill, blocks dangerous actions before they execute, runs daily security patrols, and tracks which skill initiated each action. One install, always protected.
 

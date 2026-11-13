@@ -278,7 +278,7 @@ function scoreWeb3Safety(web3) {
     findings.push({ severity: 'HIGH', text: 'Unlimited approval pattern detected in skill code' });
   }
 
-  // GoPlus or equivalent configured (30 pts)
+  // GoPlus security API or equivalent configured (30 pts)
   if (web3.goplus_configured) {
     score += 30;
   } else {

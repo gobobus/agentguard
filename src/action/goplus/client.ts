@@ -1,7 +1,7 @@
 import axios, { type AxiosInstance } from 'axios';
 
 /**
- * GoPlus API base URL
+ * Third-party security API base URL (GoPlus)
  */
 const API_BASE_URL = 'https://api.gopluslabs.io/api/v1';
 
@@ -122,7 +122,7 @@ export interface PhishingSiteResult {
 }
 
 /**
- * GoPlus API client
+ * GoPlus security API client
  */
 export class GoPlusClient {
   private client: AxiosInstance;
@@ -355,7 +355,7 @@ export class GoPlusClient {
   }
 
   /**
-   * Check if GoPlus credentials are configured
+   * Check if GoPlus security API credentials are configured
    */
   static isConfigured(): boolean {
     return !!(process.env.GOPLUS_API_KEY && process.env.GOPLUS_API_SECRET);

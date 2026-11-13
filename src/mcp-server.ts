@@ -266,7 +266,7 @@ function createServer(options?: { registryPath?: string }): Server {
         },
         {
           name: 'action_scanner_simulate_web3',
-          description: 'Simulate a Web3 transaction using GoPlus API. Returns risk analysis.',
+          description: 'Simulate a blockchain transaction for risk analysis.',
           inputSchema: {
             type: 'object',
             properties: {

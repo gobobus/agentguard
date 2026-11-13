@@ -19,7 +19,7 @@
     "url": "https://github.com/AxoraSecurity/agentguard"
   },
   "license": "MIT",
-  "keywords": ["security", "ai-agent", "web3", "scanner", "trust-registry", "mcp"],
+  "keywords": ["security", "ai-agent", "scanner", "trust-registry", "mcp"],
   "server": {
     "type": "node",
     "entry_point": "server/dist/mcp-server.js",
@@ -35,7 +35,7 @@
     { "name": "registry_revoke", "description": "Revoke a prior attestation from the registry." },
     { "name": "registry_list", "description": "List entries in the local trust registry." },
     { "name": "action_scanner_decide", "description": "Evaluate a proposed runtime action against policy and return allow/deny." },
-    { "name": "action_scanner_simulate_web3", "description": "Simulate a Web3 transaction to surface risks before signing." }
+    { "name": "action_scanner_simulate_web3", "description": "Simulate a blockchain transaction for risk analysis." }
   ],
   "compatibility": {
     "claude_desktop": ">=0.10.0",
